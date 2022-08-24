@@ -1,0 +1,319 @@
+body{
+    margin: 0;
+}
+.mainsection{
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+}
+.mainblock{
+    width: 80%;
+}
+.maintext{
+    margin-top: 90px;
+    margin-left: 250px;
+}
+.leftblock{
+    width: 80%  ;
+}
+.facebook{
+    width: 130px;
+    height: 27px
+}
+.nedavnie{
+    margin-top: 10px;
+    font-size: 25px;
+    margin-bottom: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.najmite{
+    
+    font-size: 17px;
+    color: rgb(82, 81, 81);
+    margin-top: 0;
+}
+.pictures{
+    display: flex;
+    /* justify-content: center; */
+    width: 10%;
+}
+.profpic{
+    margin-left: 250px;
+    width: 30%;
+    /* cursor: pointer; */
+}
+.profpic button{
+    cursor: pointer;
+    border-radius: 6px;
+    border: 1px solid grey;
+    margin: 0px;
+}
+.buttoni:hover{
+    box-shadow: 0px 0px 39px 16px rgba(163,160,159,0.43);
+}
+
+.d1{
+    margin: 0;
+}
+.d1 img{
+width: 150px;
+padding-bottom: 25px;
+
+}
+.d2{
+    /* border: 1px solid grey; */
+    background-color: white;
+    margin-top: -30px;
+    padding-top: 20px;
+    
+}
+
+.add{
+    margin-left: 250px;
+    width: 70%;
+}
+.d3{
+    margin: 0;
+}
+.d3 img{
+    width: 150px;
+padding-bottom: 25px;
+height: 200px;
+}
+.rightblock{
+    /* border: 1px solid black; */
+    /* width: 440px; */
+    /* height: 320px; */
+    margin-right: 200px;
+    margin-top: 120px;
+    /* align-items: center; */
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    /* margin: 40px 0 0; */
+    width: 330px;
+    padding: 15px;
+}
+.enteremail input{
+    width: 270px;
+    /* height: 22px; */
+    margin-bottom: 10px;
+    padding: 14px 16px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid #dddfe2
+}
+.enterpassword input{
+    width: 270px;
+    /* height: 22px; */
+    margin-bottom: 15px;
+    padding: 14px 16px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid #dddfe2
+}
+.vhod button{
+    background-color: #1877f2;
+    border-color: #1877f2;  
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    width: 305px;
+    border-radius: 6px;
+    border: 1px solid #1877f2;
+    font-size: 20px;
+    line-height: 41px;
+}
+.vhod button:hover{
+    background-color: #1869f2;
+}
+.zabyli{
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.zabyli a{
+    text-decoration: none;
+    color: #1877f2;
+    
+}
+.zabyli :hover{
+    text-decoration: underline;
+}
+.create{
+text-align: center;
+margin-top: 25px;
+}
+.create button{
+    background-color: #42b72a;
+    color: #fff;
+    border-radius: 6px;
+    border: 1px solid #42b72a;
+    cursor: pointer;
+    font-weight: bold;
+    line-height: 41px;
+    font-size: 17px;
+}
+.create button:hover{
+    background-color:#3ba326 ;
+}
+.undertext{
+    margin-top: 15px;
+    width: 340px;
+    font-size: 14px;
+    text-align: center;
+}
+.undertext a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.undertext a:hover{
+    text-decoration: underline;
+}
+.mainsignin{
+    /* border: 1px solid black;     */
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 7%;
+    background-color: #fff;
+    border-radius: 0 0 8px 8px;
+    /* border-top: 1px solid #dadde1; */
+    box-sizing: border-box;
+    padding: 16px;
+    position: relative;
+    width: 432px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+.dvablocka{
+    display: flex;
+    width: 450px;
+    ;
+}
+.imya input{
+   border: 1px solid #ccd0d5;
+   width: 170px;
+   margin-right: 10px;
+   border-radius: 6px;
+   padding: 10px;
+   margin-bottom: 10px;
+   background: #f5f6f7;
+}
+.famil input{
+    width: 180px;
+    border-radius: 6px;
+    padding: 10px;
+    border: 1px solid #ccd0d5;
+    background: #f5f6f7;
+
+}
+.nomer input{
+    width: 383px;
+    border-radius: 6px;
+    border: 1px solid #ccd0d5;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #f5f6f7;
+
+}
+.parol input{
+    width: 383px;
+    border-radius: 6px;
+    border: 1px solid #ccd0d5;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #f5f6f7;
+}
+.registr{
+    margin-top: -24px;
+    margin-left: 10px;
+    margin-bottom: -22px;
+    color: #1c1e21;
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 38px;
+    
+}
+.fast{
+    margin-left: 10px;
+    color: #606770;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+
+}
+.head1{
+
+}
+.datarojdeniya{
+    display: flex;
+}
+.datarojdeniya select{
+    width: 128px;
+    margin-right: 10px;
+    border-radius: 6px;
+    padding: 7px;
+    border: 1px solid #ccd0d5;
+}
+.radiot{
+    display: flex;
+}
+.jenshina {
+    border: 1px solid #ccd0d5;
+    border-radius: 6px;
+    padding: 7px;
+    margin-right: 10px;
+    width: 388px;
+}
+.ludi p{
+    color: #777;
+    font-size: 11px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.ludi a{
+    text-decoration: none;
+    color: #385898
+}
+.ludi a:hover{
+    text-decoration: underline;
+}
+.najimaya p{
+    color: #777;
+    font-size: 11px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.najimaya a{
+    text-decoration: none;
+    color: #385898
+}
+.najimaya a:hover{
+    text-decoration: underline;
+}
+.lastbutton {
+text-align: center;
+
+}
+.lastbutton button{
+    background-color: #00a400;
+    border-radius: 6px;
+    border: 1px solid #00a400;
+    font-weight: bold;
+    line-height: 31px;
+    font-size: 17px;  
+    width: 200px;  
+}
+.lastbutton a{
+    text-decoration: none;
+    /* background-color: #00a400; */
+    color: white;
+    /* background-color: ##00a400; */
+    /* border-radius: 6px; */
+    font-weight: bold;
+    /* line-height: 41px; */
+    /* font-size: 17px; */
+}
+.lastbutton button:hover{
+    background-color: #4c854c; 
+}

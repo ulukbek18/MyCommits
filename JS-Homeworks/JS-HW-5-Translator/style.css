@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    /* width: 550px; */
+    width: 42%;
+}
+.container textarea{
+    height: 250px;
+}
+.container button{
+    height: 90px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient(to bottom right, red, yellow)
+    
+}
+.container button:hover{
+  opacity: .9;
+  cursor: pointer;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-image: url(https://c8.alamy.com/comp/2AE9RTR/hanging-flags-of-kyrgyzstan-and-russia-attached-to-rope-with-clothes-pins-with-copy-space-on-white-note-paper-on-wooden-backgrounddiplomatic-relation-2AE9RTR.jpg);
+    width: auto;
+    background-size: cover;
+    background-position: center;
+}

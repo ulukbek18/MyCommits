@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>JS-HW-8</title>
+</head>
+<body>
+    <div class="title">
+        <h1>Battle</h1>
+    </div>
+    <div id="roundCount">
+
+    </div>
+        <div class="game-container">   
+    
+    <div class="buttons">
+        <button  id="heal" onclick="heal()">HEAL Knight</button>
+        <button onclick="Attack()">Attack</button>
+        <button id="fixarmor"onclick="fixArmor()">Fix Armor</button>
+        <button id="refillmana"onclick="refillMana()">Refill Mana</button>
+        <button  id="superudar" onclick="SuperUdar()">SuperUdar</button>
+        <button id="stranudar" onclick="StrangeUdar()">StrangeUdar</button>
+        <button onclick="rage()">rage Boss</button>
+    </div>
+    <div class="heroes">
+        <div id="heroDavion" class="hero-davion"></div>
+        <div id="heroBoss" class="hero-boss"></div>
+    </div>
+    </div>
+    <div class="refreshbutton">
+
+        <button onClick="window.location.reload();">Refresh Page</button>
+    </div>
+    
+
+
+    <script src="./main.js"></script>
+</body>
+</html>

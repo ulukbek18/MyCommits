@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control Work
+    </title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page-1">
+        <div class="leftimage">
+            <img src="/images/left image 1.png">
+        </div>
+        <div class="right-page">
+            <header class="menu">
+                <div class="block"><img src="/images/lupa.png" alt=""></div>
+                <div class="block"><img src="/images/basket.png" alt=""></div>
+                <div class="block"><a href="#">Sign Up</a></div>
+                <div><button id="myBtn">Sign In</button></div>
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+                    <div class="modal-body">
+                    <div class="emailput"><input type="email" placeholder="Put your email "></div>
+                    <div class="passwordput"><input type="password" name="" id="" placeholder="Put your password"></div>
+                    <span class="close">&times;</span>
+                </div>
+                <div class="modal-footer">
+                    <button>Log In</button>
+                </div>
+                </div>         
+        </div>
+                <script>
+                        // Get the modal
+                        var modal = document.getElementById("myModal");
+                        
+                        // Get the button that opens the modal
+                        var btn = document.getElementById("myBtn");
+                        
+                        // Get the <span> element that closes the modal
+                        var span = document.getElementsByClassName("close")[0];
+                        
+                        // When the user clicks the button, open the modal 
+                        btn.onclick = function() {
+                          modal.style.display = "block";
+                        }
+                        
+                        // When the user clicks on <span> (x), close the modal
+                        span.onclick = function() {
+                          modal.style.display = "none";
+                        }
+                        
+                        // When the user clicks anywhere outside of the modal, close it
+                        window.onclick = function(event) {
+                          if (event.target == modal) {
+                            modal.style.display = "none";
+                          }
+                        }
+                    </script>
+            </header>
+                <div class="headline">
+                    <h1>Kembang Flower Mantap</h1> 
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                </div>
+                <div class="plant-sides">
+                    <div class="kaktusplant">
+                        <div class="previous">
+                            <img src="/images/arrow-left.png">
+                            <span>Previous</span>
+                        </div>
+                    <div class="kaktusimage"><img src="/images/Kaktus Plant.png"></div>
+                </div>
+                <div class="rahasiaplant">
+                    <div class="next">
+                        <span>Next</span>
+                        <img src="/images/arrow-right-transparent.png">
+                    </div>
+                    <div class="rahasiaimage"><img src="/images/Rahasia Plant.png" alt=""></div>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+    <section class="page-2">
+        <div class="block-2">
+            <div class="block-sub">
+                <div class="truck-image"><img src="/images/truck.png"></div>
+                <div class="fast-deliver"><span>Fast <br>Delivery</span></div>
+            </div>
+           <div class="text-in-box"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p></div>
+        </div>
+        <div class="block-2">
+            <div class="block-sub">
+                <div class="truck-image"><img src="/images/headphones.png"></div>
+                <div class="fast-deliver"><span>Great Customer Service</span></div>
+            </div>
+           <div class="text-in-box"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p></div>
+        </div>
+        <div class="block-2">
+            <div class="block-sub">
+                <div class="truck-image"><img src="/images/listok.png"></div>
+                <div class="fast-deliver"><span>Original <br>Plants</span></div>
+            </div>
+           <div class="text-in-box"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p></div>
+        </div>
+        <div class="block-2">
+            <div class="block-sub">
+                <div class="truck-image"><img src="/images/dollar-symbol 1.png"></div>
+                <div class="fast-deliver"><span>Affordable <br> Price</span></div>
+            </div>
+           <div class="text-in-box"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p></div>
+        </div>
+    
+    </section>
+    <section class="page-3">
+        <h4>Featured Plants</h4>
+        <select name="price" id="price">
+            <option value="Cheaper">Cheaper First</option>
+            <option value="Cheaper">Expensiver First</option>
+            <option value="Cheaper">Most Popular</option>
+            <option value="Cheaper">Least Popular</option>
+        </select>
+        
+    </section>
+    <hr>
+    <section class="page-4">
+        <div class="block-3">
+           <div class="kaktus-picture"><img src="/images/kaktusplantpic.png" alt=""></div>
+           <div class="description"><span>Kaktus Plants</span></div>
+           <div class="pricetag"><span>IDR 85.000</span></div>
+        </div>
+        <div class="block-3">
+            <div class="kaktus-picture"><img src="/images/landak -2.png" alt=""></div>
+           <div class="description"><span>Landak Plants</span></div>
+           <div class="pricetag"><span>IDR 105.000</span></div>
+        </div>
+        <div class="block-3">
+            <div class="kaktus-picture"><img src="/images/kecubun 3.png" alt=""></div>
+           <div class="description"><span>Kecubung Plants</span></div>
+           <div class="pricetag"><span>IDR 85.000</span></div>
+        </div>
+        <div class="block-3">
+            <div class="kaktus-picture"><img src="/images/kecubun 4.png" alt=""></div>
+           <div class="description"><span>Kecubung Plants</span></div>
+           <div class="pricetag"><span>IDR 85.000</span></div>
+        </div>
+        <div class="block-3">
+            <div class="kaktus-picture"><img src="/images/kecubun 5.png" alt=""></div>
+           <div class="description"><span>Kecubung Plants</span></div>
+           <div class="pricetag"><span>IDR 85.000</span></div>
+        </div>
+
+    </section>
+    <section class="page-5">
+        <div class="page-5-leftside">
+            <div class="buymore"><h3>Buy more plants, it helps you to be relaxed</h3></div>
+            <div class="page-5-lorem"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi gravida gravida aliquam. Pellentesque et lobortis nisl. Sed et mauris justo. Nulla eu enim non mauris maximus dignissim. Maecenas vitae eros sapien. Quisque pellentesque tempus dignissim.</p></div>
+            <div class="page-5-image-left"><img src="/images/page-5-left-image.png" alt=""></div>
+        </div>
+        <div class="page-5-rightside">
+            <img src="/images/page-5-rightside.png" alt="">
+        </div>
+    </section>
+    <section class="page-6">
+        <div class="page-6-leftside">
+            <div class="getyour"><h3>Get your favourites plant on our shop now</h3></div>
+            <div class="page-6-button"><button>Visit Shop</button></div>
+        </div>
+        <div class="page-6-rightside">
+            <img src="/images/page-6-image.png" alt="">
+        </div>
+    </section>
+    <hr>
+    <footer class="last-page">
+        <div class="secondcolumn">
+            <div class="plantku"><p>PLANTKU</p></div>
+            <div class="plantku-house"><span>Plantku House</span></div>
+            <div class="adress"><p>Jl. Laksda Adisucipto No.51, Demangan, Kec. Depok, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55282</p></div>
+        </div>
+        <div class="secondcolumn">
+            <div class="plantku-house"><span>Perusahaan</span></div>
+            <div class="plantku-mouse"><span>Tentang Kami</span></div>
+            <div class="plantku-mouse"><span>Hubungi Kami</span></div>
+        </div>
+        <div class="secondcolumn">
+            <div class="plantku-house"><span>Produk</span></div>
+            <div class="plantku-mouse"><span>Tanaman</span></div>
+            <div class="plantku-mouse"><span>Tanaman Lain</span></div>
+        </div>
+        <div class="secondcolumn">
+            <div class="plantku-house"><span>Berlangganan Email Kami</span></div>
+            <div class="plantku-mouse"><input type="text" name="" id="" placeholder="Masukan Alamat Email"></div>
+            <div class="plantku-mouse"><button>Submit</button></div>
+        </div>
+        
+    </footer>
+</body>
+</html>
